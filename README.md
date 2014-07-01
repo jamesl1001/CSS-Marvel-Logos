@@ -1,2 +1,2 @@
-CSS-Marvel-Logos
+CSS Marvel Logos
 ================

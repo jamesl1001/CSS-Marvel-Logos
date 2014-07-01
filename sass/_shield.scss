@@ -1,0 +1,188 @@
+#shield {
+    position: relative;
+}
+
+#shield-guide {
+    width: 400px;
+    height: 400px;
+    // background: url(../shield.jpg) no-repeat;
+    opacity: .2;
+}
+
+#shield * {
+    position: absolute;
+}
+
+[id^="shield-text-"] {
+    height: 363px;
+    top: 10px;
+    left: 185px;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@for $i from 0 through 64 {
+    #shield-text-#{$i} {
+        transform: rotate($i * 5.5 + deg);
+    }
+}
+
+#shield-circle {
+    width: 400px;
+    height: 400px;
+    background: #CCC;
+    border: 8px solid #CCC;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 6px #000;
+}
+
+#shield-beak {
+    width: 56px;
+    height: 40px;
+    background: #000;
+    border-radius: 50%;
+    top: 78px;
+    left: 178px;
+}
+
+#shield-beak-cover {
+    width: 30px;
+    height: 31px;
+    background: #CCC;
+    border-radius: 50%;
+    top: 87px;
+    left: 210px;
+}
+
+#shield-neck {
+    width: 66px;
+    border: 20px solid transparent;
+    border-bottom: 46px solid #000;
+    top: 70px;
+    left: 160px;
+}
+
+#shield-torso {
+    border: 104px solid transparent;
+    border-top: 117px solid #000;
+    top: 136px;
+    left: 88px;
+}
+
+#shield-arm-l {
+    width: 41px;
+    height: 140px;
+    top: 49px;
+    left: 79px;
+    background: #000;
+    transform: perspective(200) rotateZ(-49deg) rotateX(51deg) rotateY(-2deg);
+}
+
+#shield-arm-r {
+    width: 41px;
+    height: 140px;
+    top: 49px;
+    left: 264px;
+    background: #000;
+    transform: perspective(200) rotateZ(49deg) rotateX(51deg) rotateY(2deg);
+}
+
+#shield-wing-l-1 {
+    width: 212px;
+    height: 134px;
+    background: #000;
+    border-radius: 100% 0;
+    top: 67px;
+    left: -8px;
+    clip: rect(0, 86px, 74px, 0);
+    transform: rotate(-41deg);
+}
+
+#shield-wing-l-2 {
+    width: 310px;
+    height: 310px;
+    background: #000;
+    border-radius: 50%;
+    top: 37px;
+    left: 37px;
+    clip: rect(59px, 106px, 98px, 0);
+    transform: rotate(-44deg);
+}
+
+#shield-wing-l-3 {
+    width: 310px;
+    height: 310px;
+    background: #000;
+    border-radius: 50%;
+    top: 37px;
+    left: 37px;
+    clip: rect(99px, 106px, 138px, 0);
+    transform: rotate(-49deg);
+}
+
+#shield-wing-r-1 {
+    width: 212px;
+    height: 134px;
+    background: #000;
+    border-radius: 0 100%;
+    top: 72px;
+    left: 182px;
+    clip: rect(0, 212px, 70px, 121px);
+    transform: rotate(41deg);
+}
+
+#shield-wing-r-2 {
+    width: 310px;
+    height: 310px;
+    background: #000;
+    border-radius: 50%;
+    top: 37px;
+    left: 37px;
+    clip: rect(59px, 310px, 97px, 205px);
+    transform: rotate(44deg);
+}
+
+#shield-wing-r-3 {
+    width: 310px;
+    height: 310px;
+    background: #000;
+    border-radius: 50%;
+    top: 37px;
+    left: 37px;
+    clip: rect(99px, 310px, 138px, 204px);
+    transform: rotate(49deg);
+}
+
+#shield-tail-l {
+    border: 59px solid transparent;
+    border-right: 81px solid transparent;
+    border-bottom: 86px solid #000;
+    top: 172px;
+    left: 103px;
+}
+
+#shield-tail-r {
+    border: 59px solid transparent;
+    border-left: 81px solid transparent;
+    border-bottom: 86px solid #000;
+    top: 172px;
+    left: 142px;
+}
+
+#shield-tail-base-wrapper {
+    width: 180px;
+    height: 30px;
+    top: 317px;
+    left: 102px;
+    overflow: hidden;
+}
+
+#shield-tail-base {
+    width: 220px;
+    height: 147px;
+    background: #000;
+    border-radius: 50%;
+    bottom: 0;
+    left: -20px;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "CSS Marvel Logos",
+  "version": "0.0.1",
+  "description": "CSS Marvel Logos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamesl1001/CSS-Marvel-Logos.git"
+  },
+  "author": "JaL Productions",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jamesl1001/CSS-Marvel-Logos/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "~0.7.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-sass": "~0.7.3"
+  }
+}
