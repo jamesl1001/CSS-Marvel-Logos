@@ -5,8 +5,9 @@
 #iron-man-guide {
     width: 400px;
     height: 400px;
-    // background: url(../guides/iron-man.jpg) no-repeat;
+    background: url(../guides/iron-man.jpg) no-repeat;
     opacity: .2;
+    display: none;
 }
 
 #iron-man * {

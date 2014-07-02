@@ -5,10 +5,11 @@
 #hulk-guide {
     width: 250px;
     height: 230px;
-    // background: url(../guides/hulk.png) no-repeat;
+    background: url(../guides/hulk.png) no-repeat;
     opacity: .2;
     top: 80px;
     left: 75px;
+    display: none;
 }
 
 #hulk * {
