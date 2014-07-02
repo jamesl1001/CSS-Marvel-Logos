@@ -11,6 +11,7 @@ body {
 .container {
   width: 400px;
   height: 400px;
+  float: left;
 }
 
 #shield {
@@ -598,4 +599,243 @@ body {
   border-radius: 50%;
   bottom: 0;
   left: -20px;
+}
+
+#iron-man {
+  position: relative;
+}
+
+#iron-man-guide {
+  width: 400px;
+  height: 400px;
+  opacity: .2;
+}
+
+#iron-man * {
+  position: absolute;
+}
+
+#iron-man-circle {
+  width: 400px;
+  height: 400px;
+  background: #222;
+  border: 13px solid #CCC;
+  border-radius: 50%;
+}
+
+[id^="iron-man-outer-ring-wrapper-"] {
+  height: 350px;
+  top: 12px;
+  left: 187px;
+}
+
+#iron-man-outer-ring-wrapper-0 {
+  -webkit-transform: perspective(200) rotateZ(0deg);
+  transform: perspective(200) rotateZ(0deg);
+}
+
+#iron-man-outer-ring-wrapper-1 {
+  -webkit-transform: perspective(200) rotateZ(36deg);
+  transform: perspective(200) rotateZ(36deg);
+}
+
+#iron-man-outer-ring-wrapper-2 {
+  -webkit-transform: perspective(200) rotateZ(72deg);
+  transform: perspective(200) rotateZ(72deg);
+}
+
+#iron-man-outer-ring-wrapper-3 {
+  -webkit-transform: perspective(200) rotateZ(108deg);
+  transform: perspective(200) rotateZ(108deg);
+}
+
+#iron-man-outer-ring-wrapper-4 {
+  -webkit-transform: perspective(200) rotateZ(144deg);
+  transform: perspective(200) rotateZ(144deg);
+}
+
+#iron-man-outer-ring-wrapper-5 {
+  -webkit-transform: perspective(200) rotateZ(180deg);
+  transform: perspective(200) rotateZ(180deg);
+}
+
+#iron-man-outer-ring-wrapper-6 {
+  -webkit-transform: perspective(200) rotateZ(216deg);
+  transform: perspective(200) rotateZ(216deg);
+}
+
+#iron-man-outer-ring-wrapper-7 {
+  -webkit-transform: perspective(200) rotateZ(252deg);
+  transform: perspective(200) rotateZ(252deg);
+}
+
+#iron-man-outer-ring-wrapper-8 {
+  -webkit-transform: perspective(200) rotateZ(288deg);
+  transform: perspective(200) rotateZ(288deg);
+}
+
+#iron-man-outer-ring-wrapper-9 {
+  -webkit-transform: perspective(200) rotateZ(324deg);
+  transform: perspective(200) rotateZ(324deg);
+}
+
+[id^="iron-man-outer-ring-inner-"] {
+  width: 70px;
+  height: 80px;
+  background: #3584AB;
+  border-radius: 15px;
+  top: 0;
+  left: -35px;
+  -webkit-transform: perspective(200) rotateX(-50deg);
+  transform: perspective(200) rotateX(-50deg);
+}
+
+[id^="iron-man-circle-ring-wrapper-"] {
+  height: 200px;
+  top: 87px;
+  left: 187px;
+}
+
+#iron-man-circle-ring-wrapper-0 {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+#iron-man-circle-ring-wrapper-1 {
+  -webkit-transform: rotate(36deg);
+  -ms-transform: rotate(36deg);
+  transform: rotate(36deg);
+}
+
+#iron-man-circle-ring-wrapper-2 {
+  -webkit-transform: rotate(72deg);
+  -ms-transform: rotate(72deg);
+  transform: rotate(72deg);
+}
+
+#iron-man-circle-ring-wrapper-3 {
+  -webkit-transform: rotate(108deg);
+  -ms-transform: rotate(108deg);
+  transform: rotate(108deg);
+}
+
+#iron-man-circle-ring-wrapper-4 {
+  -webkit-transform: rotate(144deg);
+  -ms-transform: rotate(144deg);
+  transform: rotate(144deg);
+}
+
+#iron-man-circle-ring-wrapper-5 {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#iron-man-circle-ring-wrapper-6 {
+  -webkit-transform: rotate(216deg);
+  -ms-transform: rotate(216deg);
+  transform: rotate(216deg);
+}
+
+#iron-man-circle-ring-wrapper-7 {
+  -webkit-transform: rotate(252deg);
+  -ms-transform: rotate(252deg);
+  transform: rotate(252deg);
+}
+
+#iron-man-circle-ring-wrapper-8 {
+  -webkit-transform: rotate(288deg);
+  -ms-transform: rotate(288deg);
+  transform: rotate(288deg);
+}
+
+#iron-man-circle-ring-wrapper-9 {
+  -webkit-transform: rotate(324deg);
+  -ms-transform: rotate(324deg);
+  transform: rotate(324deg);
+}
+
+[id^="iron-man-circle-ring-inner-"] {
+  width: 20px;
+  height: 20px;
+  background: #3584AB;
+  border-radius: 50%;
+  top: 0;
+  left: -10px;
+}
+
+#iron-man-inner-circle {
+  width: 100px;
+  height: 100px;
+  background: #ACC9DA;
+  border: 5px solid #222;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 20px #ACC9DA;
+  box-shadow: 0 0 0 20px #ACC9DA;
+  top: 138px;
+  left: 137px;
+}
+
+[id^="iron-man-spoke-"] {
+  width: 6px;
+  height: 140px;
+  background: #222;
+  border-bottom: 115px solid #ACC9DA;
+  top: -25px;
+  left: 42px;
+}
+
+#iron-man-spoke-0 {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+#iron-man-spoke-1 {
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+}
+
+#iron-man-spoke-2 {
+  -webkit-transform: rotate(80deg);
+  -ms-transform: rotate(80deg);
+  transform: rotate(80deg);
+}
+
+#iron-man-spoke-3 {
+  -webkit-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+}
+
+#iron-man-spoke-4 {
+  -webkit-transform: rotate(160deg);
+  -ms-transform: rotate(160deg);
+  transform: rotate(160deg);
+}
+
+#iron-man-spoke-5 {
+  -webkit-transform: rotate(200deg);
+  -ms-transform: rotate(200deg);
+  transform: rotate(200deg);
+}
+
+#iron-man-spoke-6 {
+  -webkit-transform: rotate(240deg);
+  -ms-transform: rotate(240deg);
+  transform: rotate(240deg);
+}
+
+#iron-man-spoke-7 {
+  -webkit-transform: rotate(280deg);
+  -ms-transform: rotate(280deg);
+  transform: rotate(280deg);
+}
+
+#iron-man-spoke-8 {
+  -webkit-transform: rotate(320deg);
+  -ms-transform: rotate(320deg);
+  transform: rotate(320deg);
 }
