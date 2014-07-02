@@ -6,12 +6,42 @@
 
 body {
   margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#centre {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1 {
+  height: 50px;
+  background: #F11E22;
+  display: inline-block;
+  padding: 40px 30px;
+  color: #FFF;
+  line-height: 0;
+}
+
+a {
+  border-bottom: 1px dotted #F11E22;
+  padding: 5px;
+  color: #F11E22;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #F11E22;
+  color: #FFF;
 }
 
 .container {
   width: 400px;
   height: 400px;
   float: left;
+  margin: 40px;
 }
 
 #shield {
