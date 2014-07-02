@@ -51,7 +51,9 @@ a:hover {
 #shield-guide {
   width: 400px;
   height: 400px;
+  background: url(../guides/shield.jpg) no-repeat;
   opacity: .2;
+  display: none;
 }
 
 #shield * {
@@ -638,7 +640,9 @@ a:hover {
 #iron-man-guide {
   width: 400px;
   height: 400px;
+  background: url(../guides/iron-man.jpg) no-repeat;
   opacity: .2;
+  display: none;
 }
 
 #iron-man * {
@@ -877,9 +881,11 @@ a:hover {
 #hulk-guide {
   width: 250px;
   height: 230px;
+  background: url(../guides/hulk.png) no-repeat;
   opacity: .2;
   top: 80px;
   left: 75px;
+  display: none;
 }
 
 #hulk * {
@@ -1102,11 +1108,11 @@ a:hover {
 }
 
 #hulk-web-1 {
-  width: 33px;
+  width: 34px;
   height: 63px;
   background: #638b30;
   top: 130px;
-  left: 127px;
+  left: 126px;
   border-radius: 0 0 0 20px;
 }
 
