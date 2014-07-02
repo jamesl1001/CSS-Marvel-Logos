@@ -1,0 +1,243 @@
+#hulk {
+    position: relative;
+}
+
+#hulk-guide {
+    width: 250px;
+    height: 230px;
+    // background: url(../guides/hulk.png) no-repeat;
+    opacity: .2;
+    top: 80px;
+    left: 75px;
+}
+
+#hulk * {
+    position: absolute;
+}
+
+#hulk-outer-circle {
+    width: 400px;
+    height: 400px;
+    background: #22192E;
+    border: 30px solid #8CC544;
+    border-radius: 50%;
+}
+
+[id^="hulk-pie-"] {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    top: 40px;
+    left: 40px;
+    clip: rect(0 320px 320px 160px);
+}
+
+[id^="hulk-slice-"] {
+    width: 320px;
+    height: 320px;
+    background: #8CC544;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    clip: rect(0px 160px 160px 0px);
+    transform: rotate(60deg);
+}
+
+#hulk-pie-1 {
+    transform: rotate(30deg);
+}
+
+#hulk-pie-2 {
+    transform: rotate(150deg);
+}
+
+#hulk-pie-3 {
+    transform: rotate(270deg);
+}
+
+#hulk-inner-circle {
+    width: 100px;
+    height: 100px;
+    background: #8CC544;
+    border: 5px solid #22192E;
+    border-radius: 50%;
+    top: 150px;
+    left: 150px;
+}
+
+#hulk-pinky-1 {
+    width: 31px;
+    height: 35px;
+    background: #638b30;
+    border-radius: 20px 20px 0 0;
+    top: 124px;
+    left: 100px;
+    transform: skew(-15deg);
+}
+
+#hulk-pinky-2 {
+    width: 60px;
+    height: 35px;
+    background: #638b30;
+    border-radius: 18px;
+    top: 159px;
+    left: 82px;
+}
+
+#hulk-pinky-3 {
+    width: 42px;
+    height: 62px;
+    background: #638b30;
+    border-radius: 0 0 50px 80px;
+    top: 187px;
+    left: 89px;
+}
+
+#hulk-ring-1 {
+    width: 42px;
+    height: 85px;
+    background: #638b30;
+    border-radius: 150px 155px 0 0;
+    top: 105px;
+    left: 147px;
+    transform: rotate(-30deg);
+}
+
+#hulk-ring-2 {
+    width: 43px;
+    height: 88px;
+    background: #638b30;
+    border-radius: 40px 0 26px 50px;
+    top: 175px;
+    left: 138px;
+    -webkit-transform: skew(-5deg);
+}
+
+#hulk-middle-1 {
+    width: 58px;
+    height: 85px;
+    background: #638b30;
+    border-radius: 80px 105px 60px 0;
+    top: 91px;
+    left: 195px;
+}
+
+#hulk-middle-2 {
+    width: 48px;
+    height: 90px;
+    background: #638b30;
+    border-radius: 0 0 40px 60px;
+    top: 173px;
+    left: 191px;
+    transform: skew(-3deg, -10deg);
+}
+
+#hulk-index-1 {
+    width: 51px;
+    height: 40px;
+    background: #638b30;
+    border-radius: 69px 125px 0 0;
+    top: 98px;
+    left: 260px;
+}
+
+#hulk-index-2 {
+    width: 53px;
+    height: 40px;
+    background: #638b30;
+    top: 138px;
+    left: 256px;
+    transform: skew(-4deg);
+}
+
+#hulk-index-3 {
+    width: 60px;
+    height: 22px;
+    background: #638b30;
+    border-radius: 19px 0 0 0;
+    top: 172px;
+    left: 249px;
+}
+
+#hulk-index-4 {
+    width: 63px;
+    height: 69px;
+    background: #638b30;
+    border-radius: 5px 20px 80px 50px;
+    top: 191px;
+    left: 249px;
+}
+
+#hulk-thumb-1 {
+    width: 45px;
+    height: 33px;
+    background: #638b30;
+    border-radius: 87px 25px 10px 52px;
+    top: 267px;
+    left: 202px;
+    transform: skew(-10deg);
+}
+
+#hulk-thumb-2 {
+    width: 30px;
+    height: 32px;
+    background: #638b30;
+    top: 269px;
+    left: 243px;
+    transform: skewY(3deg);
+}
+
+#hulk-thumb-3 {
+    width: 17px;
+    height: 32px;
+    background: #638b30;
+    border-radius: 0px 55px 130px 0px;
+    top: 269px;
+    left: 273px;
+    transform: skewY(-6deg);
+}
+
+#hulk-thumb-nail {
+    width: 31px;
+    height: 19px;
+    background: #638b30;
+    box-shadow: 0 0 0 2px #8CC544;
+    border-radius: 30px 16px 21px 10px;
+    top: 282px;
+    left: 212px;
+}
+
+#hulk-web-1 {
+    width: 33px;
+    height: 63px;
+    background: #638b30;
+    top: 130px;
+    left: 127px;
+    border-radius: 0 0 0 20px;
+}
+
+#hulk-web-2 {
+    width: 26px;
+    height: 38px;
+    background: #638b30;
+    top: 114px;
+    left: 170px;
+}
+
+#hulk-web-3 {
+    width: 25px;
+    height: 60px;
+    background: #638b30;
+    border-radius: 17px 25px 0 10px;
+    top: 114px;
+    left: 243px;
+}
+
+#hulk-cover {
+    width: 27px;
+    height: 27px;
+    background: #22192E;
+    border-radius: 50%;
+    top: 92px;
+    left: 170px;
+}
