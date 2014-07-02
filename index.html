@@ -23,136 +23,141 @@
 
         <!-- SHIELD -->
 
-        <div id="shield" class="container">
-            <div id="shield-circle">
-                <div id="shield-text"></div>
+        <a href="http://marvel.com/universe/S.H.I.E.L.D." target="_blank">
+            <div id="shield" class="container">
+                <div id="shield-circle">
+                    <div id="shield-text"></div>
 
-                <div id="shield-head">
-                    <div id="shield-beak"></div>
-                    <div id="shield-beak-cover"></div>
-                    <div id="shield-neck"></div>
+                    <div id="shield-head">
+                        <div id="shield-beak"></div>
+                        <div id="shield-beak-cover"></div>
+                        <div id="shield-neck"></div>
+                    </div>
+
+                    <div id="shield-body">
+                        <div id="shield-torso"></div>
+                        <div id="shield-arm-l"></div>
+                        <div id="shield-arm-r"></div>
+                    </div>
+
+                    <div id="shield-wings">
+                        <div id="shield-wing-l-1"></div>
+                        <div id="shield-wing-l-2"></div>
+                        <div id="shield-wing-l-3"></div>
+                        <div id="shield-wing-r-1"></div>
+                        <div id="shield-wing-r-2"></div>
+                        <div id="shield-wing-r-3"></div>
+                    </div>
+
+                    <div id="shield-tail-l"></div>
+                    <div id="shield-tail-r"></div>
+                    <div id="shield-tail-base-wrapper">
+                        <div id="shield-tail-base"></div>
+                    </div>
                 </div>
 
-                <div id="shield-body">
-                    <div id="shield-torso"></div>
-                    <div id="shield-arm-l"></div>
-                    <div id="shield-arm-r"></div>
-                </div>
+                <div id="shield-guide"></div>
 
-                <div id="shield-wings">
-                    <div id="shield-wing-l-1"></div>
-                    <div id="shield-wing-l-2"></div>
-                    <div id="shield-wing-l-3"></div>
-                    <div id="shield-wing-r-1"></div>
-                    <div id="shield-wing-r-2"></div>
-                    <div id="shield-wing-r-3"></div>
-                </div>
-
-                <div id="shield-tail-l"></div>
-                <div id="shield-tail-r"></div>
-                <div id="shield-tail-base-wrapper">
-                    <div id="shield-tail-base"></div>
-                </div>
+                <script>
+                    var shieldText = document.getElementById('shield-text');
+                    var shieldTextText = '• STRATEGIC HOMELAND INTERVENTION ENFORCEMENT LOGISTICS DIVISION ';
+                    var shieldTextArray = shieldTextText.split('');
+                    for(var i = 0, l = shieldTextArray.length; i < l; i++) {
+                        var s = document.createElement('span');
+                        s.id = 'shield-text-' + i;
+                        s.innerHTML = shieldTextArray[i];
+                        shieldText.appendChild(s);
+                    }
+                </script>
             </div>
-
-            <div id="shield-guide"></div>
-
-            <script>
-                var shieldText = document.getElementById('shield-text');
-                var shieldTextText = '• STRATEGIC HOMELAND INTERVENTION ENFORCEMENT LOGISTICS DIVISION ';
-                var shieldTextArray = shieldTextText.split('');
-                for(var i = 0, l = shieldTextArray.length; i < l; i++) {
-                    var s = document.createElement('span');
-                    s.id = 'shield-text-' + i;
-                    s.innerHTML = shieldTextArray[i];
-                    shieldText.appendChild(s);
-                }
-            </script>
-
-        </div>
+        </a>
 
         <!-- IRON MAN -->
 
-        <div id="iron-man" class="container">
-            <div id="iron-man-circle">
-                <div id="iron-man-outer-ring-wrapper-0"><div id="iron-man-outer-ring-inner-0"></div></div>
-                <div id="iron-man-outer-ring-wrapper-1"><div id="iron-man-outer-ring-inner-1"></div></div>
-                <div id="iron-man-outer-ring-wrapper-2"><div id="iron-man-outer-ring-inner-2"></div></div>
-                <div id="iron-man-outer-ring-wrapper-3"><div id="iron-man-outer-ring-inner-3"></div></div>
-                <div id="iron-man-outer-ring-wrapper-4"><div id="iron-man-outer-ring-inner-4"></div></div>
-                <div id="iron-man-outer-ring-wrapper-5"><div id="iron-man-outer-ring-inner-5"></div></div>
-                <div id="iron-man-outer-ring-wrapper-6"><div id="iron-man-outer-ring-inner-6"></div></div>
-                <div id="iron-man-outer-ring-wrapper-7"><div id="iron-man-outer-ring-inner-7"></div></div>
-                <div id="iron-man-outer-ring-wrapper-8"><div id="iron-man-outer-ring-inner-8"></div></div>
-                <div id="iron-man-outer-ring-wrapper-9"><div id="iron-man-outer-ring-inner-9"></div></div>
+        <a href="http://marvel.com/universe/Iron_man" target="_blank">
+            <div id="iron-man" class="container">
+                <div id="iron-man-circle">
+                    <div id="iron-man-outer-ring-wrapper-0"><div id="iron-man-outer-ring-inner-0"></div></div>
+                    <div id="iron-man-outer-ring-wrapper-1"><div id="iron-man-outer-ring-inner-1"></div></div>
+                    <div id="iron-man-outer-ring-wrapper-2"><div id="iron-man-outer-ring-inner-2"></div></div>
+                    <div id="iron-man-outer-ring-wrapper-3"><div id="iron-man-outer-ring-inner-3"></div></div>
+                    <div id="iron-man-outer-ring-wrapper-4"><div id="iron-man-outer-ring-inner-4"></div></div>
+                    <div id="iron-man-outer-ring-wrapper-5"><div id="iron-man-outer-ring-inner-5"></div></div>
+                    <div id="iron-man-outer-ring-wrapper-6"><div id="iron-man-outer-ring-inner-6"></div></div>
+                    <div id="iron-man-outer-ring-wrapper-7"><div id="iron-man-outer-ring-inner-7"></div></div>
+                    <div id="iron-man-outer-ring-wrapper-8"><div id="iron-man-outer-ring-inner-8"></div></div>
+                    <div id="iron-man-outer-ring-wrapper-9"><div id="iron-man-outer-ring-inner-9"></div></div>
 
-                <div id="iron-man-circle-ring-wrapper-0"><div id="iron-man-circle-ring-inner-0"></div></div>
-                <div id="iron-man-circle-ring-wrapper-1"><div id="iron-man-circle-ring-inner-1"></div></div>
-                <div id="iron-man-circle-ring-wrapper-2"><div id="iron-man-circle-ring-inner-2"></div></div>
-                <div id="iron-man-circle-ring-wrapper-3"><div id="iron-man-circle-ring-inner-3"></div></div>
-                <div id="iron-man-circle-ring-wrapper-4"><div id="iron-man-circle-ring-inner-4"></div></div>
-                <div id="iron-man-circle-ring-wrapper-5"><div id="iron-man-circle-ring-inner-5"></div></div>
-                <div id="iron-man-circle-ring-wrapper-6"><div id="iron-man-circle-ring-inner-6"></div></div>
-                <div id="iron-man-circle-ring-wrapper-7"><div id="iron-man-circle-ring-inner-7"></div></div>
-                <div id="iron-man-circle-ring-wrapper-8"><div id="iron-man-circle-ring-inner-8"></div></div>
-                <div id="iron-man-circle-ring-wrapper-9"><div id="iron-man-circle-ring-inner-9"></div></div>
+                    <div id="iron-man-circle-ring-wrapper-0"><div id="iron-man-circle-ring-inner-0"></div></div>
+                    <div id="iron-man-circle-ring-wrapper-1"><div id="iron-man-circle-ring-inner-1"></div></div>
+                    <div id="iron-man-circle-ring-wrapper-2"><div id="iron-man-circle-ring-inner-2"></div></div>
+                    <div id="iron-man-circle-ring-wrapper-3"><div id="iron-man-circle-ring-inner-3"></div></div>
+                    <div id="iron-man-circle-ring-wrapper-4"><div id="iron-man-circle-ring-inner-4"></div></div>
+                    <div id="iron-man-circle-ring-wrapper-5"><div id="iron-man-circle-ring-inner-5"></div></div>
+                    <div id="iron-man-circle-ring-wrapper-6"><div id="iron-man-circle-ring-inner-6"></div></div>
+                    <div id="iron-man-circle-ring-wrapper-7"><div id="iron-man-circle-ring-inner-7"></div></div>
+                    <div id="iron-man-circle-ring-wrapper-8"><div id="iron-man-circle-ring-inner-8"></div></div>
+                    <div id="iron-man-circle-ring-wrapper-9"><div id="iron-man-circle-ring-inner-9"></div></div>
 
-                <div id="iron-man-inner-circle">
-                    <div id="iron-man-spoke-0"></div>
-                    <div id="iron-man-spoke-1"></div>
-                    <div id="iron-man-spoke-2"></div>
-                    <div id="iron-man-spoke-3"></div>
-                    <div id="iron-man-spoke-4"></div>
-                    <div id="iron-man-spoke-5"></div>
-                    <div id="iron-man-spoke-6"></div>
-                    <div id="iron-man-spoke-7"></div>
-                    <div id="iron-man-spoke-8"></div>
+                    <div id="iron-man-inner-circle">
+                        <div id="iron-man-spoke-0"></div>
+                        <div id="iron-man-spoke-1"></div>
+                        <div id="iron-man-spoke-2"></div>
+                        <div id="iron-man-spoke-3"></div>
+                        <div id="iron-man-spoke-4"></div>
+                        <div id="iron-man-spoke-5"></div>
+                        <div id="iron-man-spoke-6"></div>
+                        <div id="iron-man-spoke-7"></div>
+                        <div id="iron-man-spoke-8"></div>
+                    </div>
                 </div>
-            </div>
 
-            <div id="iron-man-guide"></div>
-        </div>
+                <div id="iron-man-guide"></div>
+            </div>
+        </a>
 
         <!-- HULK -->
 
-        <div id="hulk" class="container">
-            <div id="hulk-radioactive">
-                <div id="hulk-outer-circle"></div>
-                <div id="hulk-pie-1"><div id="hulk-slice-1"></div></div>
-                <div id="hulk-pie-2"><div id="hulk-slice-2"></div></div>
-                <div id="hulk-pie-3"><div id="hulk-slice-3"></div></div>
-                <div id="hulk-inner-circle"></div>
+        <a href="http://marvel.com/universe/Hulk_(Bruce_Banner)" target="_blank">
+            <div id="hulk" class="container">
+                <div id="hulk-radioactive">
+                    <div id="hulk-outer-circle"></div>
+                    <div id="hulk-pie-1"><div id="hulk-slice-1"></div></div>
+                    <div id="hulk-pie-2"><div id="hulk-slice-2"></div></div>
+                    <div id="hulk-pie-3"><div id="hulk-slice-3"></div></div>
+                    <div id="hulk-inner-circle"></div>
+                </div>
+
+                <div id="hulk-fist">
+                    <div id="hulk-pinky-1"></div>
+                    <div id="hulk-pinky-2"></div>
+                    <div id="hulk-pinky-3"></div>
+
+                    <div id="hulk-ring-1"></div>
+                    <div id="hulk-ring-2"></div>
+
+                    <div id="hulk-middle-1"></div>
+                    <div id="hulk-middle-2"></div>
+
+                    <div id="hulk-index-1"></div>
+                    <div id="hulk-index-2"></div>
+                    <div id="hulk-index-3"></div>
+                    <div id="hulk-index-4"></div>
+
+                    <div id="hulk-thumb-1"></div>
+                    <div id="hulk-thumb-2"></div>
+                    <div id="hulk-thumb-3"></div>
+                    <div id="hulk-thumb-nail"></div>
+
+                    <div id="hulk-web-1"></div>
+                    <div id="hulk-web-2"></div>
+                    <div id="hulk-web-3"></div>
+                    <div id="hulk-cover"></div>
+                </div>
+
+                <div id="hulk-guide"></div>
             </div>
-
-            <div id="hulk-fist">
-                <div id="hulk-pinky-1"></div>
-                <div id="hulk-pinky-2"></div>
-                <div id="hulk-pinky-3"></div>
-
-                <div id="hulk-ring-1"></div>
-                <div id="hulk-ring-2"></div>
-
-                <div id="hulk-middle-1"></div>
-                <div id="hulk-middle-2"></div>
-
-                <div id="hulk-index-1"></div>
-                <div id="hulk-index-2"></div>
-                <div id="hulk-index-3"></div>
-                <div id="hulk-index-4"></div>
-
-                <div id="hulk-thumb-1"></div>
-                <div id="hulk-thumb-2"></div>
-                <div id="hulk-thumb-3"></div>
-                <div id="hulk-thumb-nail"></div>
-
-                <div id="hulk-web-1"></div>
-                <div id="hulk-web-2"></div>
-                <div id="hulk-web-3"></div>
-                <div id="hulk-cover"></div>
-            </div>
-
-            <div id="hulk-guide"></div>
-        </div>
+        </a>
 
     </div>
 

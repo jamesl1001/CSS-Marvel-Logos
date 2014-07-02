@@ -23,14 +23,14 @@ h1 {
     line-height: 0;
 }
 
-a {
+p > a {
     border-bottom: 1px dotted #F11E22;
     padding: 5px;
     color: #F11E22;
     text-decoration: none;
 }
 
-a:hover {
+p > a:hover {
     background: #F11E22;
     color: #FFF;
 }
