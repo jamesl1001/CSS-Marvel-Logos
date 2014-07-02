@@ -1,0 +1,91 @@
+#iron-man {
+    position: relative;
+}
+
+#iron-man-guide {
+    width: 400px;
+    height: 400px;
+    // background: url(../guides/iron-man.jpg) no-repeat;
+    opacity: .2;
+}
+
+#iron-man * {
+    position: absolute;
+}
+
+#iron-man-circle {
+    width: 400px;
+    height: 400px;
+    background: #222;
+    border: 13px solid #CCC;
+    border-radius: 50%;
+}
+
+[id^="iron-man-outer-ring-wrapper-"] {
+    height: 350px;
+    top: 12px;
+    left: 187px;
+}
+
+@for $i from 0 through 9 {
+    #iron-man-outer-ring-wrapper-#{$i} {
+        transform: perspective(200) rotateZ($i * 36 + deg);
+    }
+}
+
+[id^="iron-man-outer-ring-inner-"] {
+    width: 70px;
+    height: 80px;
+    background: #3584AB;
+    border-radius: 15px;
+    top: 0;
+    left: -35px;
+    transform: perspective(200) rotateX(-50deg);
+}
+
+[id^="iron-man-circle-ring-wrapper-"] {
+    height: 200px;
+    top: 87px;
+    left: 187px;
+}
+
+@for $i from 0 through 9 {
+    #iron-man-circle-ring-wrapper-#{$i} {
+        transform: rotate($i * 36 + deg);
+    }
+}
+
+[id^="iron-man-circle-ring-inner-"] {
+    width: 20px;
+    height: 20px;
+    background: #3584AB;
+    border-radius: 50%;
+    top: 0;
+    left: -10px;
+}
+
+#iron-man-inner-circle {
+    width: 100px;
+    height: 100px;
+    background: #ACC9DA;
+    border: 5px solid #222;
+    border-radius: 50%;
+    box-shadow: 0 0 0 20px #ACC9DA;
+    top: 138px;
+    left: 137px;
+}
+
+[id^="iron-man-spoke-"] {
+    width: 6px;
+    height: 140px;
+    background: #222;
+    border-bottom: 115px solid #ACC9DA;
+    top: -25px;
+    left: 42px;
+}
+
+@for $i from 0 through 8 {
+    #iron-man-spoke-#{$i} {
+        transform: rotate($i * 40 + deg);
+    }
+}
