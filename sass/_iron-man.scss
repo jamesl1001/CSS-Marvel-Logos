@@ -22,7 +22,7 @@
 
 @for $i from 0 through 9 {
     #iron-man-outer-ring-wrapper-#{$i} {
-        transform: perspective(200) rotateZ($i * 36 + deg);
+        transform: perspective(200px) rotateZ($i * 36 + deg);
     }
 }
 
@@ -33,7 +33,7 @@
     border-radius: 15px;
     top: 0;
     left: -35px;
-    transform: perspective(200) rotateX(-50deg);
+    transform: perspective(200px) rotateX(-50deg);
 }
 
 [id^="iron-man-circle-ring-wrapper-"] {
