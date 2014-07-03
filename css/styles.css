@@ -42,10 +42,11 @@ p > a:hover {
   height: 400px;
   float: left;
   margin: 40px;
+  position: relative;
 }
 
-#shield {
-  position: relative;
+.container * {
+  position: absolute;
 }
 
 #shield-guide {
@@ -54,10 +55,6 @@ p > a:hover {
   background: url(../guides/shield.jpg) no-repeat;
   opacity: .2;
   display: none;
-}
-
-#shield * {
-  position: absolute;
 }
 
 #shield-text {
@@ -637,20 +634,12 @@ p > a:hover {
   left: -20px;
 }
 
-#iron-man {
-  position: relative;
-}
-
 #iron-man-guide {
   width: 400px;
   height: 400px;
   background: url(../guides/iron-man.jpg) no-repeat;
   opacity: .2;
   display: none;
-}
-
-#iron-man * {
-  position: absolute;
 }
 
 #iron-man-circle {
@@ -878,10 +867,6 @@ p > a:hover {
   transform: rotate(320deg);
 }
 
-#hulk {
-  position: relative;
-}
-
 #hulk-guide {
   width: 250px;
   height: 230px;
@@ -890,10 +875,6 @@ p > a:hover {
   top: 80px;
   left: 75px;
   display: none;
-}
-
-#hulk * {
-  position: absolute;
 }
 
 #hulk-outer-circle {
@@ -1144,4 +1125,122 @@ p > a:hover {
   border-radius: 50%;
   top: 92px;
   left: 170px;
+}
+
+#captain-america-guide {
+  width: 400px;
+  height: 400px;
+  background: url(../guides/captain-america.jpg) no-repeat;
+  opacity: .2;
+  display: none;
+}
+
+#captain-america-rings {
+  width: 210px;
+  height: 210px;
+  background: #154C9C;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 32px #DA1F26, 0 0 0 64px #FFF, 0 0 0 96px #DA1F26;
+  box-shadow: 0 0 0 32px #DA1F26, 0 0 0 64px #FFF, 0 0 0 96px #DA1F26;
+  top: 95px;
+  left: 95px;
+}
+
+[id^="captain-america-star-"] {
+  border: 54px solid transparent;
+  border-bottom: 113px solid #FFF;
+  top: 42px;
+  left: 147px;
+  -webkit-transform-origin: 50% 94% 0;
+  -ms-transform-origin: 50% 94% 0;
+  transform-origin: 50% 94% 0;
+}
+
+#captain-america-star-2 {
+  -webkit-transform: rotate(72deg);
+  -ms-transform: rotate(72deg);
+  transform: rotate(72deg);
+}
+
+#captain-america-star-3 {
+  -webkit-transform: rotate(144deg);
+  -ms-transform: rotate(144deg);
+  transform: rotate(144deg);
+}
+
+#captain-america-star-4 {
+  -webkit-transform: rotate(216deg);
+  -ms-transform: rotate(216deg);
+  transform: rotate(216deg);
+}
+
+#captain-america-star-5 {
+  -webkit-transform: rotate(288deg);
+  -ms-transform: rotate(288deg);
+  transform: rotate(288deg);
+}
+
+#x-men-guide {
+  width: 400px;
+  height: 400px;
+  background: url(../guides/x-men.jpg) no-repeat;
+  opacity: .2;
+  display: none;
+}
+
+#x-men-circle-1 {
+  width: 300px;
+  height: 300px;
+  background: #EF1A25;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 10px #000, 0 0 0 50px #1F74BC;
+  box-shadow: 0 0 0 10px #000, 0 0 0 50px #1F74BC;
+  top: 50px;
+  left: 50px;
+}
+
+[id^="x-men-pie-"] {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  top: 65px;
+  left: 65px;
+  clip: rect(0 270px 270px 135px);
+}
+
+[id^="x-men-slice-"] {
+  width: 270px;
+  height: 270px;
+  background: #FEF200;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  clip: rect(0px 110px 110px 0px);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#x-men-pie-1 {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#x-men-pie-2 {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#x-men-pie-3 {
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#x-men-pie-4 {
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
 }
