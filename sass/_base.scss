@@ -42,3 +42,7 @@ p > a:hover {
     margin: 40px;
     position: relative;
 }
+
+.container * {
+    position: absolute;
+}
