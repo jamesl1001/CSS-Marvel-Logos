@@ -25,11 +25,14 @@ h1 {
   line-height: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 p > a {
   border-bottom: 1px dotted #F11E22;
   padding: 5px;
   color: #F11E22;
-  text-decoration: none;
 }
 
 p > a:hover {
@@ -47,6 +50,10 @@ p > a:hover {
 
 .container * {
   position: absolute;
+}
+
+footer {
+  clear: both;
 }
 
 #shield-guide {
@@ -509,8 +516,8 @@ p > a:hover {
   top: 49px;
   left: 79px;
   background: #000;
-  -webkit-transform: perspective(200) rotateZ(-49deg) rotateX(51deg) rotateY(-2deg);
-  transform: perspective(200) rotateZ(-49deg) rotateX(51deg) rotateY(-2deg);
+  -webkit-transform: perspective(200px) rotateZ(-49deg) rotateX(51deg) rotateY(-2deg);
+  transform: perspective(200px) rotateZ(-49deg) rotateX(51deg) rotateY(-2deg);
 }
 
 #shield-arm-r {
@@ -519,8 +526,8 @@ p > a:hover {
   top: 49px;
   left: 264px;
   background: #000;
-  -webkit-transform: perspective(200) rotateZ(49deg) rotateX(51deg) rotateY(2deg);
-  transform: perspective(200) rotateZ(49deg) rotateX(51deg) rotateY(2deg);
+  -webkit-transform: perspective(200px) rotateZ(49deg) rotateX(51deg) rotateY(2deg);
+  transform: perspective(200px) rotateZ(49deg) rotateX(51deg) rotateY(2deg);
 }
 
 #shield-wing-l-1 {
@@ -657,53 +664,53 @@ p > a:hover {
 }
 
 #iron-man-outer-ring-wrapper-0 {
-  -webkit-transform: perspective(200) rotateZ(0deg);
-  transform: perspective(200) rotateZ(0deg);
+  -webkit-transform: perspective(200px) rotateZ(0deg);
+  transform: perspective(200px) rotateZ(0deg);
 }
 
 #iron-man-outer-ring-wrapper-1 {
-  -webkit-transform: perspective(200) rotateZ(36deg);
-  transform: perspective(200) rotateZ(36deg);
+  -webkit-transform: perspective(200px) rotateZ(36deg);
+  transform: perspective(200px) rotateZ(36deg);
 }
 
 #iron-man-outer-ring-wrapper-2 {
-  -webkit-transform: perspective(200) rotateZ(72deg);
-  transform: perspective(200) rotateZ(72deg);
+  -webkit-transform: perspective(200px) rotateZ(72deg);
+  transform: perspective(200px) rotateZ(72deg);
 }
 
 #iron-man-outer-ring-wrapper-3 {
-  -webkit-transform: perspective(200) rotateZ(108deg);
-  transform: perspective(200) rotateZ(108deg);
+  -webkit-transform: perspective(200px) rotateZ(108deg);
+  transform: perspective(200px) rotateZ(108deg);
 }
 
 #iron-man-outer-ring-wrapper-4 {
-  -webkit-transform: perspective(200) rotateZ(144deg);
-  transform: perspective(200) rotateZ(144deg);
+  -webkit-transform: perspective(200px) rotateZ(144deg);
+  transform: perspective(200px) rotateZ(144deg);
 }
 
 #iron-man-outer-ring-wrapper-5 {
-  -webkit-transform: perspective(200) rotateZ(180deg);
-  transform: perspective(200) rotateZ(180deg);
+  -webkit-transform: perspective(200px) rotateZ(180deg);
+  transform: perspective(200px) rotateZ(180deg);
 }
 
 #iron-man-outer-ring-wrapper-6 {
-  -webkit-transform: perspective(200) rotateZ(216deg);
-  transform: perspective(200) rotateZ(216deg);
+  -webkit-transform: perspective(200px) rotateZ(216deg);
+  transform: perspective(200px) rotateZ(216deg);
 }
 
 #iron-man-outer-ring-wrapper-7 {
-  -webkit-transform: perspective(200) rotateZ(252deg);
-  transform: perspective(200) rotateZ(252deg);
+  -webkit-transform: perspective(200px) rotateZ(252deg);
+  transform: perspective(200px) rotateZ(252deg);
 }
 
 #iron-man-outer-ring-wrapper-8 {
-  -webkit-transform: perspective(200) rotateZ(288deg);
-  transform: perspective(200) rotateZ(288deg);
+  -webkit-transform: perspective(200px) rotateZ(288deg);
+  transform: perspective(200px) rotateZ(288deg);
 }
 
 #iron-man-outer-ring-wrapper-9 {
-  -webkit-transform: perspective(200) rotateZ(324deg);
-  transform: perspective(200) rotateZ(324deg);
+  -webkit-transform: perspective(200px) rotateZ(324deg);
+  transform: perspective(200px) rotateZ(324deg);
 }
 
 [id^="iron-man-outer-ring-inner-"] {
@@ -713,8 +720,8 @@ p > a:hover {
   border-radius: 15px;
   top: 0;
   left: -35px;
-  -webkit-transform: perspective(200) rotateX(-50deg);
-  transform: perspective(200) rotateX(-50deg);
+  -webkit-transform: perspective(200px) rotateX(-50deg);
+  transform: perspective(200px) rotateX(-50deg);
 }
 
 [id^="iron-man-circle-ring-wrapper-"] {
