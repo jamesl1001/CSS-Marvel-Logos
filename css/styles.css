@@ -1188,7 +1188,7 @@ p > a:hover {
   display: none;
 }
 
-#x-men-circle-1 {
+#x-men-circle {
   width: 300px;
   height: 300px;
   background: #EF1A25;
@@ -1243,4 +1243,92 @@ p > a:hover {
   -webkit-transform: rotate(225deg);
   -ms-transform: rotate(225deg);
   transform: rotate(225deg);
+}
+
+#thor-circle {
+  width: 280px;
+  height: 280px;
+  background: #CCC;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 5px #333, 0 0 0 40px #B82831, 0 0 0 60px #CCC;
+  box-shadow: 0 0 0 5px #333, 0 0 0 40px #B82831, 0 0 0 60px #CCC;
+  top: 60px;
+  left: 60px;
+}
+
+#thor-hammer {
+  width: 280px;
+  height: 281px;
+  top: 60px;
+  left: 60px;
+  overflow: hidden;
+  -webkit-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  transform: rotate(25deg);
+}
+
+#thor-top {
+  width: 40px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid #333;
+  top: 17px;
+  left: 120px;
+}
+
+#thor-centre {
+  width: 160px;
+  height: 90px;
+  background: #333;
+  top: 40px;
+  left: 60px;
+}
+
+#thor-left {
+  height: 90px;
+  border: 10px solid transparent;
+  border-right: 10px solid #333;
+  top: 40px;
+  left: 37px;
+}
+
+#thor-right {
+  height: 90px;
+  border: 10px solid transparent;
+  border-left: 10px solid #333;
+  top: 40px;
+  left: 223px;
+}
+
+[id^="thor-handle-"] {
+  width: 60px;
+  height: 30px;
+  background: #333;
+  -webkit-transform: skewY(20deg);
+  -ms-transform: skewY(20deg);
+  transform: skewY(20deg);
+  left: 110px;
+}
+
+#thor-handle-1 {
+  top: 110px;
+}
+
+#thor-handle-2 {
+  top: 143px;
+}
+
+#thor-handle-3 {
+  top: 176px;
+}
+
+#thor-handle-4 {
+  top: 209px;
+}
+
+#thor-handle-5 {
+  top: 242px;
+}
+
+#thor-handle-6 {
+  top: 275px;
 }
