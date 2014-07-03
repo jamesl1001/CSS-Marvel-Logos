@@ -1,0 +1,54 @@
+#x-men-guide {
+    width: 400px;
+    height: 400px;
+    background: url(../guides/x-men.jpg) no-repeat;
+    opacity: .2;
+    display: none;
+}
+
+#x-men-circle-1 {
+    width: 300px;
+    height: 300px;
+    background: #EF1A25;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #000,
+                0 0 0 50px #1F74BC;
+    top: 50px;
+    left: 50px;
+}
+
+[id^="x-men-pie-"] {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    top: 65px;
+    left: 65px;
+    clip: rect(0 270px 270px 135px);
+}
+
+[id^="x-men-slice-"] {
+    width: 270px;
+    height: 270px;
+    background: #FEF200;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    clip: rect(0px 110px 110px 0px);
+    transform: rotate(90deg);
+}
+
+#x-men-pie-1 {
+    transform: rotate(-45deg);
+}
+
+#x-men-pie-2 {
+    transform: rotate(45deg);
+}
+
+#x-men-pie-3 {
+    transform: rotate(135deg);
+}
+
+#x-men-pie-4 {
+    transform: rotate(225deg);
+}

@@ -40,4 +40,9 @@ p > a:hover {
     height: 400px;
     float: left;
     margin: 40px;
+    position: relative;
+}
+
+.container * {
+    position: absolute;
 }

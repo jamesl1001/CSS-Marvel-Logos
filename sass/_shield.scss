@@ -1,17 +1,9 @@
-#shield {
-    position: relative;
-}
-
 #shield-guide {
     width: 400px;
     height: 400px;
     background: url(../guides/shield.jpg) no-repeat;
     opacity: .2;
     display: none;
-}
-
-#shield * {
-    position: absolute;
 }
 
 #shield-text {
