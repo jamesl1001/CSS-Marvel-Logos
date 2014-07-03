@@ -1,0 +1,66 @@
+#thor-circle {
+    width: 280px;
+    height: 280px;
+    background: #CCC;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px #333,
+                0 0 0 40px #B82831,
+                0 0 0 60px #CCC;
+    top: 60px;
+    left: 60px;
+}
+
+#thor-hammer {
+    width: 280px;
+    height: 281px;
+    top: 60px;
+    left: 60px;
+    overflow: hidden;
+    transform: rotate(25deg);
+}
+
+#thor-top {
+    width: 40px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #333;
+    top: 17px;
+    left: 120px;
+}
+
+#thor-centre {
+    width: 160px;
+    height: 90px;
+    background: #333;
+    top: 40px;
+    left: 60px;
+}
+
+#thor-left {
+    height: 90px;
+    border: 10px solid transparent;
+    border-right: 10px solid #333;
+    top: 40px;
+    left: 37px;
+}
+
+#thor-right {
+    height: 90px;
+    border: 10px solid transparent;
+    border-left: 10px solid #333;
+    top: 40px;
+    left: 223px;
+}
+
+[id^="thor-handle-"] {
+    width: 60px;
+    height: 30px;
+    background: #333;
+    transform: skewY(20deg);
+    left: 110px;
+}
+
+@for $i from 1 through 6 {
+    #thor-handle-#{$i} {
+        top: $i * 33 + 77 + px;
+    }
+}
