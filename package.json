@@ -1,5 +1,5 @@
 {
-  "name": "CSS Marvel Logos",
+  "name": "CSS-Marvel-Logos",
   "version": "0.0.1",
   "description": "CSS Marvel Logos",
   "main": "index.js",
@@ -15,10 +15,12 @@
   "bugs": {
     "url": "https://github.com/jamesl1001/CSS-Marvel-Logos/issues"
   },
-  "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-autoprefixer": "~0.7.5",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-contrib-sass": "~0.7.3"
+  "devDependencies": {},
+  "dependencies": {
+    "diff": "^4.0.1",
+    "grunt": "^1.2.0",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
   }
 }

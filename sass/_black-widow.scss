@@ -1,0 +1,39 @@
+#black-widow-guide {
+    width: 400px;
+    height: 400px;
+    background: url(../guides/black-widow.png) no-repeat;
+    opacity: .2;
+    position: absolute;
+    top: 0;
+    // display: none;
+}
+
+#black-widow-circle {
+    width: 400px;
+    height: 400px;
+    background: #000;
+    border: 27px solid #F8EF22;
+    border-radius: 50%;
+    position: relative;
+
+    &:before,
+    &:after {
+        border: 101px solid transparent;
+        content: '';
+        height: 0;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        width: 0;
+    }
+
+    &:before {
+        border-top: 172px solid #ED0F24;
+        top: 44px;
+    }
+
+    &:after {
+        border-bottom: 172px solid #ED0F24;
+        bottom: 44px;
+    }
+}
