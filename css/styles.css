@@ -1,6 +1,4 @@
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -56,6 +54,503 @@ footer {
   clear: both;
 }
 
+#black-widow-guide {
+  width: 400px;
+  height: 400px;
+  background: url(../guides/black-widow.png) no-repeat;
+  opacity: .2;
+  position: absolute;
+  top: 0;
+}
+
+#black-widow-circle {
+  width: 400px;
+  height: 400px;
+  background: #000;
+  border: 27px solid #F8EF22;
+  border-radius: 50%;
+  position: relative;
+}
+#black-widow-circle:before, #black-widow-circle:after {
+  border: 101px solid transparent;
+  content: '';
+  height: 0;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 0;
+}
+#black-widow-circle:before {
+  border-top: 172px solid #ED0F24;
+  top: 44px;
+}
+#black-widow-circle:after {
+  border-bottom: 172px solid #ED0F24;
+  bottom: 44px;
+}
+
+#captain-america-guide {
+  width: 400px;
+  height: 400px;
+  background: url(../guides/captain-america.jpg) no-repeat;
+  opacity: .2;
+  display: none;
+}
+
+#captain-america-rings {
+  width: 210px;
+  height: 210px;
+  background: #154C9C;
+  border-radius: 50%;
+  box-shadow: 0 0 0 32px #DA1F26, 0 0 0 64px #FFF, 0 0 0 96px #DA1F26;
+  top: 95px;
+  left: 95px;
+}
+
+[id^="captain-america-star-"] {
+  border: 54px solid transparent;
+  border-bottom: 113px solid #FFF;
+  top: 42px;
+  left: 147px;
+  transform-origin: 50% 94% 0;
+}
+
+#captain-america-star-2 {
+  transform: rotate(72deg);
+}
+
+#captain-america-star-3 {
+  transform: rotate(144deg);
+}
+
+#captain-america-star-4 {
+  transform: rotate(216deg);
+}
+
+#captain-america-star-5 {
+  transform: rotate(288deg);
+}
+
+#hulk-guide {
+  width: 250px;
+  height: 230px;
+  background: url(../guides/hulk.png) no-repeat;
+  opacity: .2;
+  top: 80px;
+  left: 75px;
+  display: none;
+}
+
+#hulk-outer-circle {
+  width: 400px;
+  height: 400px;
+  background: #22192E;
+  border: 30px solid #8CC544;
+  border-radius: 50%;
+}
+
+[id^="hulk-pie-"] {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  top: 40px;
+  left: 40px;
+  clip: rect(0 320px 320px 160px);
+}
+
+[id^="hulk-slice-"] {
+  width: 320px;
+  height: 320px;
+  background: #8CC544;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  clip: rect(0px 160px 160px 0px);
+  transform: rotate(60deg);
+}
+
+#hulk-pie-1 {
+  transform: rotate(30deg);
+}
+
+#hulk-pie-2 {
+  transform: rotate(150deg);
+}
+
+#hulk-pie-3 {
+  transform: rotate(270deg);
+}
+
+#hulk-inner-circle {
+  width: 100px;
+  height: 100px;
+  background: #8CC544;
+  border: 5px solid #22192E;
+  border-radius: 50%;
+  top: 150px;
+  left: 150px;
+}
+
+#hulk-pinky-1 {
+  width: 31px;
+  height: 35px;
+  background: #638b30;
+  border-radius: 20px 20px 0 0;
+  top: 124px;
+  left: 100px;
+  transform: skew(-15deg);
+}
+
+#hulk-pinky-2 {
+  width: 60px;
+  height: 35px;
+  background: #638b30;
+  border-radius: 18px;
+  top: 159px;
+  left: 82px;
+}
+
+#hulk-pinky-3 {
+  width: 42px;
+  height: 62px;
+  background: #638b30;
+  border-radius: 0 0 50px 80px;
+  top: 187px;
+  left: 89px;
+}
+
+#hulk-ring-1 {
+  width: 42px;
+  height: 85px;
+  background: #638b30;
+  border-radius: 150px 155px 0 0;
+  top: 105px;
+  left: 147px;
+  transform: rotate(-30deg);
+}
+
+#hulk-ring-2 {
+  width: 43px;
+  height: 88px;
+  background: #638b30;
+  border-radius: 40px 0 26px 50px;
+  top: 175px;
+  left: 138px;
+  -webkit-transform: skew(-5deg);
+}
+
+#hulk-middle-1 {
+  width: 58px;
+  height: 85px;
+  background: #638b30;
+  border-radius: 80px 105px 60px 0;
+  top: 91px;
+  left: 195px;
+}
+
+#hulk-middle-2 {
+  width: 48px;
+  height: 90px;
+  background: #638b30;
+  border-radius: 0 0 40px 60px;
+  top: 173px;
+  left: 191px;
+  transform: skew(-3deg, -10deg);
+}
+
+#hulk-index-1 {
+  width: 51px;
+  height: 40px;
+  background: #638b30;
+  border-radius: 69px 125px 0 0;
+  top: 98px;
+  left: 260px;
+}
+
+#hulk-index-2 {
+  width: 53px;
+  height: 40px;
+  background: #638b30;
+  top: 138px;
+  left: 256px;
+  transform: skew(-4deg);
+}
+
+#hulk-index-3 {
+  width: 60px;
+  height: 22px;
+  background: #638b30;
+  border-radius: 19px 0 0 0;
+  top: 172px;
+  left: 249px;
+}
+
+#hulk-index-4 {
+  width: 63px;
+  height: 69px;
+  background: #638b30;
+  border-radius: 5px 20px 80px 50px;
+  top: 191px;
+  left: 249px;
+}
+
+#hulk-thumb-1 {
+  width: 45px;
+  height: 33px;
+  background: #638b30;
+  border-radius: 87px 25px 10px 52px;
+  top: 267px;
+  left: 202px;
+  transform: skew(-10deg);
+}
+
+#hulk-thumb-2 {
+  width: 30px;
+  height: 32px;
+  background: #638b30;
+  top: 269px;
+  left: 243px;
+  transform: skewY(3deg);
+}
+
+#hulk-thumb-3 {
+  width: 17px;
+  height: 32px;
+  background: #638b30;
+  border-radius: 0px 55px 130px 0px;
+  top: 269px;
+  left: 273px;
+  transform: skewY(-6deg);
+}
+
+#hulk-thumb-nail {
+  width: 31px;
+  height: 19px;
+  background: #638b30;
+  box-shadow: 0 0 0 2px #8CC544;
+  border-radius: 30px 16px 21px 10px;
+  top: 282px;
+  left: 212px;
+}
+
+#hulk-web-1 {
+  width: 34px;
+  height: 63px;
+  background: #638b30;
+  top: 130px;
+  left: 126px;
+  border-radius: 0 0 0 20px;
+}
+
+#hulk-web-2 {
+  width: 26px;
+  height: 38px;
+  background: #638b30;
+  top: 114px;
+  left: 170px;
+}
+
+#hulk-web-3 {
+  width: 25px;
+  height: 60px;
+  background: #638b30;
+  border-radius: 17px 25px 0 10px;
+  top: 114px;
+  left: 243px;
+}
+
+#hulk-cover {
+  width: 27px;
+  height: 27px;
+  background: #22192E;
+  border-radius: 50%;
+  top: 92px;
+  left: 170px;
+}
+
+#iron-man-guide {
+  width: 400px;
+  height: 400px;
+  background: url(../guides/iron-man.jpg) no-repeat;
+  opacity: .2;
+  display: none;
+}
+
+#iron-man-circle {
+  width: 400px;
+  height: 400px;
+  background: #222;
+  border: 13px solid #CCC;
+  border-radius: 50%;
+}
+
+[id^="iron-man-outer-ring-wrapper-"] {
+  height: 350px;
+  top: 12px;
+  left: 187px;
+}
+
+#iron-man-outer-ring-wrapper-0 {
+  transform: perspective(200px) rotateZ(0deg);
+}
+
+#iron-man-outer-ring-wrapper-1 {
+  transform: perspective(200px) rotateZ(36deg);
+}
+
+#iron-man-outer-ring-wrapper-2 {
+  transform: perspective(200px) rotateZ(72deg);
+}
+
+#iron-man-outer-ring-wrapper-3 {
+  transform: perspective(200px) rotateZ(108deg);
+}
+
+#iron-man-outer-ring-wrapper-4 {
+  transform: perspective(200px) rotateZ(144deg);
+}
+
+#iron-man-outer-ring-wrapper-5 {
+  transform: perspective(200px) rotateZ(180deg);
+}
+
+#iron-man-outer-ring-wrapper-6 {
+  transform: perspective(200px) rotateZ(216deg);
+}
+
+#iron-man-outer-ring-wrapper-7 {
+  transform: perspective(200px) rotateZ(252deg);
+}
+
+#iron-man-outer-ring-wrapper-8 {
+  transform: perspective(200px) rotateZ(288deg);
+}
+
+#iron-man-outer-ring-wrapper-9 {
+  transform: perspective(200px) rotateZ(324deg);
+}
+
+[id^="iron-man-outer-ring-inner-"] {
+  width: 70px;
+  height: 80px;
+  background: #3584AB;
+  border-radius: 15px;
+  top: 0;
+  left: -35px;
+  transform: perspective(200px) rotateX(-50deg);
+}
+
+[id^="iron-man-circle-ring-wrapper-"] {
+  height: 200px;
+  top: 87px;
+  left: 187px;
+}
+
+#iron-man-circle-ring-wrapper-0 {
+  transform: rotate(0deg);
+}
+
+#iron-man-circle-ring-wrapper-1 {
+  transform: rotate(36deg);
+}
+
+#iron-man-circle-ring-wrapper-2 {
+  transform: rotate(72deg);
+}
+
+#iron-man-circle-ring-wrapper-3 {
+  transform: rotate(108deg);
+}
+
+#iron-man-circle-ring-wrapper-4 {
+  transform: rotate(144deg);
+}
+
+#iron-man-circle-ring-wrapper-5 {
+  transform: rotate(180deg);
+}
+
+#iron-man-circle-ring-wrapper-6 {
+  transform: rotate(216deg);
+}
+
+#iron-man-circle-ring-wrapper-7 {
+  transform: rotate(252deg);
+}
+
+#iron-man-circle-ring-wrapper-8 {
+  transform: rotate(288deg);
+}
+
+#iron-man-circle-ring-wrapper-9 {
+  transform: rotate(324deg);
+}
+
+[id^="iron-man-circle-ring-inner-"] {
+  width: 20px;
+  height: 20px;
+  background: #3584AB;
+  border-radius: 50%;
+  top: 0;
+  left: -10px;
+}
+
+#iron-man-inner-circle {
+  width: 100px;
+  height: 100px;
+  background: #ACC9DA;
+  border: 5px solid #222;
+  border-radius: 50%;
+  box-shadow: 0 0 0 20px #ACC9DA;
+  top: 138px;
+  left: 137px;
+}
+
+[id^="iron-man-spoke-"] {
+  width: 6px;
+  height: 140px;
+  border-top: 21px solid #222;
+  border-bottom: 115px solid #ACC9DA;
+  top: -25px;
+  left: 42px;
+}
+
+#iron-man-spoke-0 {
+  transform: rotate(0deg);
+}
+
+#iron-man-spoke-1 {
+  transform: rotate(40deg);
+}
+
+#iron-man-spoke-2 {
+  transform: rotate(80deg);
+}
+
+#iron-man-spoke-3 {
+  transform: rotate(120deg);
+}
+
+#iron-man-spoke-4 {
+  transform: rotate(160deg);
+}
+
+#iron-man-spoke-5 {
+  transform: rotate(200deg);
+}
+
+#iron-man-spoke-6 {
+  transform: rotate(240deg);
+}
+
+#iron-man-spoke-7 {
+  transform: rotate(280deg);
+}
+
+#iron-man-spoke-8 {
+  transform: rotate(320deg);
+}
+
 #shield-guide {
   width: 400px;
   height: 400px;
@@ -78,392 +573,262 @@ footer {
 }
 
 #shield-text-0 {
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
   transform: rotate(0deg);
 }
 
 #shield-text-1 {
-  -webkit-transform: rotate(5.5deg);
-  -ms-transform: rotate(5.5deg);
   transform: rotate(5.5deg);
 }
 
 #shield-text-2 {
-  -webkit-transform: rotate(11deg);
-  -ms-transform: rotate(11deg);
   transform: rotate(11deg);
 }
 
 #shield-text-3 {
-  -webkit-transform: rotate(16.5deg);
-  -ms-transform: rotate(16.5deg);
   transform: rotate(16.5deg);
 }
 
 #shield-text-4 {
-  -webkit-transform: rotate(22deg);
-  -ms-transform: rotate(22deg);
   transform: rotate(22deg);
 }
 
 #shield-text-5 {
-  -webkit-transform: rotate(27.5deg);
-  -ms-transform: rotate(27.5deg);
   transform: rotate(27.5deg);
 }
 
 #shield-text-6 {
-  -webkit-transform: rotate(33deg);
-  -ms-transform: rotate(33deg);
   transform: rotate(33deg);
 }
 
 #shield-text-7 {
-  -webkit-transform: rotate(38.5deg);
-  -ms-transform: rotate(38.5deg);
   transform: rotate(38.5deg);
 }
 
 #shield-text-8 {
-  -webkit-transform: rotate(44deg);
-  -ms-transform: rotate(44deg);
   transform: rotate(44deg);
 }
 
 #shield-text-9 {
-  -webkit-transform: rotate(49.5deg);
-  -ms-transform: rotate(49.5deg);
   transform: rotate(49.5deg);
 }
 
 #shield-text-10 {
-  -webkit-transform: rotate(55deg);
-  -ms-transform: rotate(55deg);
   transform: rotate(55deg);
 }
 
 #shield-text-11 {
-  -webkit-transform: rotate(60.5deg);
-  -ms-transform: rotate(60.5deg);
   transform: rotate(60.5deg);
 }
 
 #shield-text-12 {
-  -webkit-transform: rotate(66deg);
-  -ms-transform: rotate(66deg);
   transform: rotate(66deg);
 }
 
 #shield-text-13 {
-  -webkit-transform: rotate(71.5deg);
-  -ms-transform: rotate(71.5deg);
   transform: rotate(71.5deg);
 }
 
 #shield-text-14 {
-  -webkit-transform: rotate(77deg);
-  -ms-transform: rotate(77deg);
   transform: rotate(77deg);
 }
 
 #shield-text-15 {
-  -webkit-transform: rotate(82.5deg);
-  -ms-transform: rotate(82.5deg);
   transform: rotate(82.5deg);
 }
 
 #shield-text-16 {
-  -webkit-transform: rotate(88deg);
-  -ms-transform: rotate(88deg);
   transform: rotate(88deg);
 }
 
 #shield-text-17 {
-  -webkit-transform: rotate(93.5deg);
-  -ms-transform: rotate(93.5deg);
   transform: rotate(93.5deg);
 }
 
 #shield-text-18 {
-  -webkit-transform: rotate(99deg);
-  -ms-transform: rotate(99deg);
   transform: rotate(99deg);
 }
 
 #shield-text-19 {
-  -webkit-transform: rotate(104.5deg);
-  -ms-transform: rotate(104.5deg);
   transform: rotate(104.5deg);
 }
 
 #shield-text-20 {
-  -webkit-transform: rotate(110deg);
-  -ms-transform: rotate(110deg);
   transform: rotate(110deg);
 }
 
 #shield-text-21 {
-  -webkit-transform: rotate(115.5deg);
-  -ms-transform: rotate(115.5deg);
   transform: rotate(115.5deg);
 }
 
 #shield-text-22 {
-  -webkit-transform: rotate(121deg);
-  -ms-transform: rotate(121deg);
   transform: rotate(121deg);
 }
 
 #shield-text-23 {
-  -webkit-transform: rotate(126.5deg);
-  -ms-transform: rotate(126.5deg);
   transform: rotate(126.5deg);
 }
 
 #shield-text-24 {
-  -webkit-transform: rotate(132deg);
-  -ms-transform: rotate(132deg);
   transform: rotate(132deg);
 }
 
 #shield-text-25 {
-  -webkit-transform: rotate(137.5deg);
-  -ms-transform: rotate(137.5deg);
   transform: rotate(137.5deg);
 }
 
 #shield-text-26 {
-  -webkit-transform: rotate(143deg);
-  -ms-transform: rotate(143deg);
   transform: rotate(143deg);
 }
 
 #shield-text-27 {
-  -webkit-transform: rotate(148.5deg);
-  -ms-transform: rotate(148.5deg);
   transform: rotate(148.5deg);
 }
 
 #shield-text-28 {
-  -webkit-transform: rotate(154deg);
-  -ms-transform: rotate(154deg);
   transform: rotate(154deg);
 }
 
 #shield-text-29 {
-  -webkit-transform: rotate(159.5deg);
-  -ms-transform: rotate(159.5deg);
   transform: rotate(159.5deg);
 }
 
 #shield-text-30 {
-  -webkit-transform: rotate(165deg);
-  -ms-transform: rotate(165deg);
   transform: rotate(165deg);
 }
 
 #shield-text-31 {
-  -webkit-transform: rotate(170.5deg);
-  -ms-transform: rotate(170.5deg);
   transform: rotate(170.5deg);
 }
 
 #shield-text-32 {
-  -webkit-transform: rotate(176deg);
-  -ms-transform: rotate(176deg);
   transform: rotate(176deg);
 }
 
 #shield-text-33 {
-  -webkit-transform: rotate(181.5deg);
-  -ms-transform: rotate(181.5deg);
   transform: rotate(181.5deg);
 }
 
 #shield-text-34 {
-  -webkit-transform: rotate(187deg);
-  -ms-transform: rotate(187deg);
   transform: rotate(187deg);
 }
 
 #shield-text-35 {
-  -webkit-transform: rotate(192.5deg);
-  -ms-transform: rotate(192.5deg);
   transform: rotate(192.5deg);
 }
 
 #shield-text-36 {
-  -webkit-transform: rotate(198deg);
-  -ms-transform: rotate(198deg);
   transform: rotate(198deg);
 }
 
 #shield-text-37 {
-  -webkit-transform: rotate(203.5deg);
-  -ms-transform: rotate(203.5deg);
   transform: rotate(203.5deg);
 }
 
 #shield-text-38 {
-  -webkit-transform: rotate(209deg);
-  -ms-transform: rotate(209deg);
   transform: rotate(209deg);
 }
 
 #shield-text-39 {
-  -webkit-transform: rotate(214.5deg);
-  -ms-transform: rotate(214.5deg);
   transform: rotate(214.5deg);
 }
 
 #shield-text-40 {
-  -webkit-transform: rotate(220deg);
-  -ms-transform: rotate(220deg);
   transform: rotate(220deg);
 }
 
 #shield-text-41 {
-  -webkit-transform: rotate(225.5deg);
-  -ms-transform: rotate(225.5deg);
   transform: rotate(225.5deg);
 }
 
 #shield-text-42 {
-  -webkit-transform: rotate(231deg);
-  -ms-transform: rotate(231deg);
   transform: rotate(231deg);
 }
 
 #shield-text-43 {
-  -webkit-transform: rotate(236.5deg);
-  -ms-transform: rotate(236.5deg);
   transform: rotate(236.5deg);
 }
 
 #shield-text-44 {
-  -webkit-transform: rotate(242deg);
-  -ms-transform: rotate(242deg);
   transform: rotate(242deg);
 }
 
 #shield-text-45 {
-  -webkit-transform: rotate(247.5deg);
-  -ms-transform: rotate(247.5deg);
   transform: rotate(247.5deg);
 }
 
 #shield-text-46 {
-  -webkit-transform: rotate(253deg);
-  -ms-transform: rotate(253deg);
   transform: rotate(253deg);
 }
 
 #shield-text-47 {
-  -webkit-transform: rotate(258.5deg);
-  -ms-transform: rotate(258.5deg);
   transform: rotate(258.5deg);
 }
 
 #shield-text-48 {
-  -webkit-transform: rotate(264deg);
-  -ms-transform: rotate(264deg);
   transform: rotate(264deg);
 }
 
 #shield-text-49 {
-  -webkit-transform: rotate(269.5deg);
-  -ms-transform: rotate(269.5deg);
   transform: rotate(269.5deg);
 }
 
 #shield-text-50 {
-  -webkit-transform: rotate(275deg);
-  -ms-transform: rotate(275deg);
   transform: rotate(275deg);
 }
 
 #shield-text-51 {
-  -webkit-transform: rotate(280.5deg);
-  -ms-transform: rotate(280.5deg);
   transform: rotate(280.5deg);
 }
 
 #shield-text-52 {
-  -webkit-transform: rotate(286deg);
-  -ms-transform: rotate(286deg);
   transform: rotate(286deg);
 }
 
 #shield-text-53 {
-  -webkit-transform: rotate(291.5deg);
-  -ms-transform: rotate(291.5deg);
   transform: rotate(291.5deg);
 }
 
 #shield-text-54 {
-  -webkit-transform: rotate(297deg);
-  -ms-transform: rotate(297deg);
   transform: rotate(297deg);
 }
 
 #shield-text-55 {
-  -webkit-transform: rotate(302.5deg);
-  -ms-transform: rotate(302.5deg);
   transform: rotate(302.5deg);
 }
 
 #shield-text-56 {
-  -webkit-transform: rotate(308deg);
-  -ms-transform: rotate(308deg);
   transform: rotate(308deg);
 }
 
 #shield-text-57 {
-  -webkit-transform: rotate(313.5deg);
-  -ms-transform: rotate(313.5deg);
   transform: rotate(313.5deg);
 }
 
 #shield-text-58 {
-  -webkit-transform: rotate(319deg);
-  -ms-transform: rotate(319deg);
   transform: rotate(319deg);
 }
 
 #shield-text-59 {
-  -webkit-transform: rotate(324.5deg);
-  -ms-transform: rotate(324.5deg);
   transform: rotate(324.5deg);
 }
 
 #shield-text-60 {
-  -webkit-transform: rotate(330deg);
-  -ms-transform: rotate(330deg);
   transform: rotate(330deg);
 }
 
 #shield-text-61 {
-  -webkit-transform: rotate(335.5deg);
-  -ms-transform: rotate(335.5deg);
   transform: rotate(335.5deg);
 }
 
 #shield-text-62 {
-  -webkit-transform: rotate(341deg);
-  -ms-transform: rotate(341deg);
   transform: rotate(341deg);
 }
 
 #shield-text-63 {
-  -webkit-transform: rotate(346.5deg);
-  -ms-transform: rotate(346.5deg);
   transform: rotate(346.5deg);
 }
 
 #shield-text-64 {
-  -webkit-transform: rotate(352deg);
-  -ms-transform: rotate(352deg);
   transform: rotate(352deg);
 }
 
@@ -473,7 +838,6 @@ footer {
   background: #CCC;
   border: 8px solid #CCC;
   border-radius: 50%;
-  -webkit-box-shadow: inset 0 0 0 6px #000;
   box-shadow: inset 0 0 0 6px #000;
 }
 
@@ -516,7 +880,6 @@ footer {
   top: 49px;
   left: 79px;
   background: #000;
-  -webkit-transform: perspective(200px) rotateZ(-49deg) rotateX(51deg) rotateY(-2deg);
   transform: perspective(200px) rotateZ(-49deg) rotateX(51deg) rotateY(-2deg);
 }
 
@@ -526,7 +889,6 @@ footer {
   top: 49px;
   left: 264px;
   background: #000;
-  -webkit-transform: perspective(200px) rotateZ(49deg) rotateX(51deg) rotateY(2deg);
   transform: perspective(200px) rotateZ(49deg) rotateX(51deg) rotateY(2deg);
 }
 
@@ -538,8 +900,6 @@ footer {
   top: 67px;
   left: -8px;
   clip: rect(0, 86px, 74px, 0);
-  -webkit-transform: rotate(-41deg);
-  -ms-transform: rotate(-41deg);
   transform: rotate(-41deg);
 }
 
@@ -551,8 +911,6 @@ footer {
   top: 37px;
   left: 37px;
   clip: rect(59px, 106px, 98px, 0);
-  -webkit-transform: rotate(-44deg);
-  -ms-transform: rotate(-44deg);
   transform: rotate(-44deg);
 }
 
@@ -564,8 +922,6 @@ footer {
   top: 37px;
   left: 37px;
   clip: rect(99px, 106px, 138px, 0);
-  -webkit-transform: rotate(-49deg);
-  -ms-transform: rotate(-49deg);
   transform: rotate(-49deg);
 }
 
@@ -577,8 +933,6 @@ footer {
   top: 72px;
   left: 182px;
   clip: rect(0, 212px, 70px, 121px);
-  -webkit-transform: rotate(41deg);
-  -ms-transform: rotate(41deg);
   transform: rotate(41deg);
 }
 
@@ -590,8 +944,6 @@ footer {
   top: 37px;
   left: 37px;
   clip: rect(59px, 310px, 97px, 205px);
-  -webkit-transform: rotate(44deg);
-  -ms-transform: rotate(44deg);
   transform: rotate(44deg);
 }
 
@@ -603,8 +955,6 @@ footer {
   top: 37px;
   left: 37px;
   clip: rect(99px, 310px, 138px, 204px);
-  -webkit-transform: rotate(49deg);
-  -ms-transform: rotate(49deg);
   transform: rotate(49deg);
 }
 
@@ -641,623 +991,11 @@ footer {
   left: -20px;
 }
 
-#iron-man-guide {
-  width: 400px;
-  height: 400px;
-  background: url(../guides/iron-man.jpg) no-repeat;
-  opacity: .2;
-  display: none;
-}
-
-#iron-man-circle {
-  width: 400px;
-  height: 400px;
-  background: #222;
-  border: 13px solid #CCC;
-  border-radius: 50%;
-}
-
-[id^="iron-man-outer-ring-wrapper-"] {
-  height: 350px;
-  top: 12px;
-  left: 187px;
-}
-
-#iron-man-outer-ring-wrapper-0 {
-  -webkit-transform: perspective(200px) rotateZ(0deg);
-  transform: perspective(200px) rotateZ(0deg);
-}
-
-#iron-man-outer-ring-wrapper-1 {
-  -webkit-transform: perspective(200px) rotateZ(36deg);
-  transform: perspective(200px) rotateZ(36deg);
-}
-
-#iron-man-outer-ring-wrapper-2 {
-  -webkit-transform: perspective(200px) rotateZ(72deg);
-  transform: perspective(200px) rotateZ(72deg);
-}
-
-#iron-man-outer-ring-wrapper-3 {
-  -webkit-transform: perspective(200px) rotateZ(108deg);
-  transform: perspective(200px) rotateZ(108deg);
-}
-
-#iron-man-outer-ring-wrapper-4 {
-  -webkit-transform: perspective(200px) rotateZ(144deg);
-  transform: perspective(200px) rotateZ(144deg);
-}
-
-#iron-man-outer-ring-wrapper-5 {
-  -webkit-transform: perspective(200px) rotateZ(180deg);
-  transform: perspective(200px) rotateZ(180deg);
-}
-
-#iron-man-outer-ring-wrapper-6 {
-  -webkit-transform: perspective(200px) rotateZ(216deg);
-  transform: perspective(200px) rotateZ(216deg);
-}
-
-#iron-man-outer-ring-wrapper-7 {
-  -webkit-transform: perspective(200px) rotateZ(252deg);
-  transform: perspective(200px) rotateZ(252deg);
-}
-
-#iron-man-outer-ring-wrapper-8 {
-  -webkit-transform: perspective(200px) rotateZ(288deg);
-  transform: perspective(200px) rotateZ(288deg);
-}
-
-#iron-man-outer-ring-wrapper-9 {
-  -webkit-transform: perspective(200px) rotateZ(324deg);
-  transform: perspective(200px) rotateZ(324deg);
-}
-
-[id^="iron-man-outer-ring-inner-"] {
-  width: 70px;
-  height: 80px;
-  background: #3584AB;
-  border-radius: 15px;
-  top: 0;
-  left: -35px;
-  -webkit-transform: perspective(200px) rotateX(-50deg);
-  transform: perspective(200px) rotateX(-50deg);
-}
-
-[id^="iron-man-circle-ring-wrapper-"] {
-  height: 200px;
-  top: 87px;
-  left: 187px;
-}
-
-#iron-man-circle-ring-wrapper-0 {
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-
-#iron-man-circle-ring-wrapper-1 {
-  -webkit-transform: rotate(36deg);
-  -ms-transform: rotate(36deg);
-  transform: rotate(36deg);
-}
-
-#iron-man-circle-ring-wrapper-2 {
-  -webkit-transform: rotate(72deg);
-  -ms-transform: rotate(72deg);
-  transform: rotate(72deg);
-}
-
-#iron-man-circle-ring-wrapper-3 {
-  -webkit-transform: rotate(108deg);
-  -ms-transform: rotate(108deg);
-  transform: rotate(108deg);
-}
-
-#iron-man-circle-ring-wrapper-4 {
-  -webkit-transform: rotate(144deg);
-  -ms-transform: rotate(144deg);
-  transform: rotate(144deg);
-}
-
-#iron-man-circle-ring-wrapper-5 {
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-#iron-man-circle-ring-wrapper-6 {
-  -webkit-transform: rotate(216deg);
-  -ms-transform: rotate(216deg);
-  transform: rotate(216deg);
-}
-
-#iron-man-circle-ring-wrapper-7 {
-  -webkit-transform: rotate(252deg);
-  -ms-transform: rotate(252deg);
-  transform: rotate(252deg);
-}
-
-#iron-man-circle-ring-wrapper-8 {
-  -webkit-transform: rotate(288deg);
-  -ms-transform: rotate(288deg);
-  transform: rotate(288deg);
-}
-
-#iron-man-circle-ring-wrapper-9 {
-  -webkit-transform: rotate(324deg);
-  -ms-transform: rotate(324deg);
-  transform: rotate(324deg);
-}
-
-[id^="iron-man-circle-ring-inner-"] {
-  width: 20px;
-  height: 20px;
-  background: #3584AB;
-  border-radius: 50%;
-  top: 0;
-  left: -10px;
-}
-
-#iron-man-inner-circle {
-  width: 100px;
-  height: 100px;
-  background: #ACC9DA;
-  border: 5px solid #222;
-  border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 20px #ACC9DA;
-  box-shadow: 0 0 0 20px #ACC9DA;
-  top: 138px;
-  left: 137px;
-}
-
-[id^="iron-man-spoke-"] {
-  width: 6px;
-  height: 140px;
-  background: #222;
-  border-bottom: 115px solid #ACC9DA;
-  top: -25px;
-  left: 42px;
-}
-
-#iron-man-spoke-0 {
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-
-#iron-man-spoke-1 {
-  -webkit-transform: rotate(40deg);
-  -ms-transform: rotate(40deg);
-  transform: rotate(40deg);
-}
-
-#iron-man-spoke-2 {
-  -webkit-transform: rotate(80deg);
-  -ms-transform: rotate(80deg);
-  transform: rotate(80deg);
-}
-
-#iron-man-spoke-3 {
-  -webkit-transform: rotate(120deg);
-  -ms-transform: rotate(120deg);
-  transform: rotate(120deg);
-}
-
-#iron-man-spoke-4 {
-  -webkit-transform: rotate(160deg);
-  -ms-transform: rotate(160deg);
-  transform: rotate(160deg);
-}
-
-#iron-man-spoke-5 {
-  -webkit-transform: rotate(200deg);
-  -ms-transform: rotate(200deg);
-  transform: rotate(200deg);
-}
-
-#iron-man-spoke-6 {
-  -webkit-transform: rotate(240deg);
-  -ms-transform: rotate(240deg);
-  transform: rotate(240deg);
-}
-
-#iron-man-spoke-7 {
-  -webkit-transform: rotate(280deg);
-  -ms-transform: rotate(280deg);
-  transform: rotate(280deg);
-}
-
-#iron-man-spoke-8 {
-  -webkit-transform: rotate(320deg);
-  -ms-transform: rotate(320deg);
-  transform: rotate(320deg);
-}
-
-#hulk-guide {
-  width: 250px;
-  height: 230px;
-  background: url(../guides/hulk.png) no-repeat;
-  opacity: .2;
-  top: 80px;
-  left: 75px;
-  display: none;
-}
-
-#hulk-outer-circle {
-  width: 400px;
-  height: 400px;
-  background: #22192E;
-  border: 30px solid #8CC544;
-  border-radius: 50%;
-}
-
-[id^="hulk-pie-"] {
-  width: 320px;
-  height: 320px;
-  border-radius: 50%;
-  top: 40px;
-  left: 40px;
-  clip: rect(0 320px 320px 160px);
-}
-
-[id^="hulk-slice-"] {
-  width: 320px;
-  height: 320px;
-  background: #8CC544;
-  border-radius: 50%;
-  top: 0;
-  left: 0;
-  clip: rect(0px 160px 160px 0px);
-  -webkit-transform: rotate(60deg);
-  -ms-transform: rotate(60deg);
-  transform: rotate(60deg);
-}
-
-#hulk-pie-1 {
-  -webkit-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
-  transform: rotate(30deg);
-}
-
-#hulk-pie-2 {
-  -webkit-transform: rotate(150deg);
-  -ms-transform: rotate(150deg);
-  transform: rotate(150deg);
-}
-
-#hulk-pie-3 {
-  -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  transform: rotate(270deg);
-}
-
-#hulk-inner-circle {
-  width: 100px;
-  height: 100px;
-  background: #8CC544;
-  border: 5px solid #22192E;
-  border-radius: 50%;
-  top: 150px;
-  left: 150px;
-}
-
-#hulk-pinky-1 {
-  width: 31px;
-  height: 35px;
-  background: #638b30;
-  border-radius: 20px 20px 0 0;
-  top: 124px;
-  left: 100px;
-  -webkit-transform: skew(-15deg);
-  -ms-transform: skew(-15deg);
-  transform: skew(-15deg);
-}
-
-#hulk-pinky-2 {
-  width: 60px;
-  height: 35px;
-  background: #638b30;
-  border-radius: 18px;
-  top: 159px;
-  left: 82px;
-}
-
-#hulk-pinky-3 {
-  width: 42px;
-  height: 62px;
-  background: #638b30;
-  border-radius: 0 0 50px 80px;
-  top: 187px;
-  left: 89px;
-}
-
-#hulk-ring-1 {
-  width: 42px;
-  height: 85px;
-  background: #638b30;
-  border-radius: 150px 155px 0 0;
-  top: 105px;
-  left: 147px;
-  -webkit-transform: rotate(-30deg);
-  -ms-transform: rotate(-30deg);
-  transform: rotate(-30deg);
-}
-
-#hulk-ring-2 {
-  width: 43px;
-  height: 88px;
-  background: #638b30;
-  border-radius: 40px 0 26px 50px;
-  top: 175px;
-  left: 138px;
-  -webkit-transform: skew(-5deg);
-}
-
-#hulk-middle-1 {
-  width: 58px;
-  height: 85px;
-  background: #638b30;
-  border-radius: 80px 105px 60px 0;
-  top: 91px;
-  left: 195px;
-}
-
-#hulk-middle-2 {
-  width: 48px;
-  height: 90px;
-  background: #638b30;
-  border-radius: 0 0 40px 60px;
-  top: 173px;
-  left: 191px;
-  -webkit-transform: skew(-3deg, -10deg);
-  -ms-transform: skew(-3deg, -10deg);
-  transform: skew(-3deg, -10deg);
-}
-
-#hulk-index-1 {
-  width: 51px;
-  height: 40px;
-  background: #638b30;
-  border-radius: 69px 125px 0 0;
-  top: 98px;
-  left: 260px;
-}
-
-#hulk-index-2 {
-  width: 53px;
-  height: 40px;
-  background: #638b30;
-  top: 138px;
-  left: 256px;
-  -webkit-transform: skew(-4deg);
-  -ms-transform: skew(-4deg);
-  transform: skew(-4deg);
-}
-
-#hulk-index-3 {
-  width: 60px;
-  height: 22px;
-  background: #638b30;
-  border-radius: 19px 0 0 0;
-  top: 172px;
-  left: 249px;
-}
-
-#hulk-index-4 {
-  width: 63px;
-  height: 69px;
-  background: #638b30;
-  border-radius: 5px 20px 80px 50px;
-  top: 191px;
-  left: 249px;
-}
-
-#hulk-thumb-1 {
-  width: 45px;
-  height: 33px;
-  background: #638b30;
-  border-radius: 87px 25px 10px 52px;
-  top: 267px;
-  left: 202px;
-  -webkit-transform: skew(-10deg);
-  -ms-transform: skew(-10deg);
-  transform: skew(-10deg);
-}
-
-#hulk-thumb-2 {
-  width: 30px;
-  height: 32px;
-  background: #638b30;
-  top: 269px;
-  left: 243px;
-  -webkit-transform: skewY(3deg);
-  -ms-transform: skewY(3deg);
-  transform: skewY(3deg);
-}
-
-#hulk-thumb-3 {
-  width: 17px;
-  height: 32px;
-  background: #638b30;
-  border-radius: 0px 55px 130px 0px;
-  top: 269px;
-  left: 273px;
-  -webkit-transform: skewY(-6deg);
-  -ms-transform: skewY(-6deg);
-  transform: skewY(-6deg);
-}
-
-#hulk-thumb-nail {
-  width: 31px;
-  height: 19px;
-  background: #638b30;
-  -webkit-box-shadow: 0 0 0 2px #8CC544;
-  box-shadow: 0 0 0 2px #8CC544;
-  border-radius: 30px 16px 21px 10px;
-  top: 282px;
-  left: 212px;
-}
-
-#hulk-web-1 {
-  width: 34px;
-  height: 63px;
-  background: #638b30;
-  top: 130px;
-  left: 126px;
-  border-radius: 0 0 0 20px;
-}
-
-#hulk-web-2 {
-  width: 26px;
-  height: 38px;
-  background: #638b30;
-  top: 114px;
-  left: 170px;
-}
-
-#hulk-web-3 {
-  width: 25px;
-  height: 60px;
-  background: #638b30;
-  border-radius: 17px 25px 0 10px;
-  top: 114px;
-  left: 243px;
-}
-
-#hulk-cover {
-  width: 27px;
-  height: 27px;
-  background: #22192E;
-  border-radius: 50%;
-  top: 92px;
-  left: 170px;
-}
-
-#captain-america-guide {
-  width: 400px;
-  height: 400px;
-  background: url(../guides/captain-america.jpg) no-repeat;
-  opacity: .2;
-  display: none;
-}
-
-#captain-america-rings {
-  width: 210px;
-  height: 210px;
-  background: #154C9C;
-  border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 32px #DA1F26, 0 0 0 64px #FFF, 0 0 0 96px #DA1F26;
-  box-shadow: 0 0 0 32px #DA1F26, 0 0 0 64px #FFF, 0 0 0 96px #DA1F26;
-  top: 95px;
-  left: 95px;
-}
-
-[id^="captain-america-star-"] {
-  border: 54px solid transparent;
-  border-bottom: 113px solid #FFF;
-  top: 42px;
-  left: 147px;
-  -webkit-transform-origin: 50% 94% 0;
-  -ms-transform-origin: 50% 94% 0;
-  transform-origin: 50% 94% 0;
-}
-
-#captain-america-star-2 {
-  -webkit-transform: rotate(72deg);
-  -ms-transform: rotate(72deg);
-  transform: rotate(72deg);
-}
-
-#captain-america-star-3 {
-  -webkit-transform: rotate(144deg);
-  -ms-transform: rotate(144deg);
-  transform: rotate(144deg);
-}
-
-#captain-america-star-4 {
-  -webkit-transform: rotate(216deg);
-  -ms-transform: rotate(216deg);
-  transform: rotate(216deg);
-}
-
-#captain-america-star-5 {
-  -webkit-transform: rotate(288deg);
-  -ms-transform: rotate(288deg);
-  transform: rotate(288deg);
-}
-
-#x-men-guide {
-  width: 400px;
-  height: 400px;
-  background: url(../guides/x-men.jpg) no-repeat;
-  opacity: .2;
-  display: none;
-}
-
-#x-men-circle {
-  width: 300px;
-  height: 300px;
-  background: #EF1A25;
-  border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 10px #000, 0 0 0 50px #1F74BC;
-  box-shadow: 0 0 0 10px #000, 0 0 0 50px #1F74BC;
-  top: 50px;
-  left: 50px;
-}
-
-[id^="x-men-pie-"] {
-  width: 270px;
-  height: 270px;
-  border-radius: 50%;
-  top: 65px;
-  left: 65px;
-  clip: rect(0 270px 270px 135px);
-}
-
-[id^="x-men-slice-"] {
-  width: 270px;
-  height: 270px;
-  background: #FEF200;
-  border-radius: 50%;
-  top: 0;
-  left: 0;
-  clip: rect(0px 110px 110px 0px);
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-#x-men-pie-1 {
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-#x-men-pie-2 {
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-#x-men-pie-3 {
-  -webkit-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  transform: rotate(135deg);
-}
-
-#x-men-pie-4 {
-  -webkit-transform: rotate(225deg);
-  -ms-transform: rotate(225deg);
-  transform: rotate(225deg);
-}
-
 #thor-circle {
   width: 280px;
   height: 280px;
   background: #CCC;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 0 5px #333, 0 0 0 40px #B82831, 0 0 0 60px #CCC;
   box-shadow: 0 0 0 5px #333, 0 0 0 40px #B82831, 0 0 0 60px #CCC;
   top: 60px;
   left: 60px;
@@ -1269,8 +1007,6 @@ footer {
   top: 60px;
   left: 60px;
   overflow: hidden;
-  -webkit-transform: rotate(25deg);
-  -ms-transform: rotate(25deg);
   transform: rotate(25deg);
 }
 
@@ -1310,8 +1046,6 @@ footer {
   width: 60px;
   height: 30px;
   background: #333;
-  -webkit-transform: skewY(20deg);
-  -ms-transform: skewY(20deg);
   transform: skewY(20deg);
   left: 110px;
 }
@@ -1338,4 +1072,58 @@ footer {
 
 #thor-handle-6 {
   top: 275px;
+}
+
+#x-men-guide {
+  width: 400px;
+  height: 400px;
+  background: url(../guides/x-men.jpg) no-repeat;
+  opacity: .2;
+  display: none;
+}
+
+#x-men-circle {
+  width: 300px;
+  height: 300px;
+  background: #EF1A25;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #000, 0 0 0 50px #1F74BC;
+  top: 50px;
+  left: 50px;
+}
+
+[id^="x-men-pie-"] {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  top: 65px;
+  left: 65px;
+  clip: rect(0 270px 270px 135px);
+}
+
+[id^="x-men-slice-"] {
+  width: 270px;
+  height: 270px;
+  background: #FEF200;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  clip: rect(0px 110px 110px 0px);
+  transform: rotate(90deg);
+}
+
+#x-men-pie-1 {
+  transform: rotate(-45deg);
+}
+
+#x-men-pie-2 {
+  transform: rotate(45deg);
+}
+
+#x-men-pie-3 {
+  transform: rotate(135deg);
+}
+
+#x-men-pie-4 {
+  transform: rotate(225deg);
 }
